@@ -27,11 +27,12 @@ body {
 }
 
 .form__title {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	margin-bottom: .5rem;
 }
 
 .form__paragraph {
+	font-size: .7rem;
 	font-weight: 300;
 }
 
@@ -115,6 +116,10 @@ body {
 
 @media screen and (max-width: 425px){
 	.form__title {
-		font-size: 1.8rem;
+		font-size: 1.4rem;
+	}
+
+	.form__paragraph {
+		font-size: .5rem;
 	}
 }
